@@ -12,7 +12,7 @@ This project aims to use machine learning to predict the dislocation velocity in
 - **Data Visualization:** Plot results comparing dislocation velocity against parameters like stress, temperature, and W content.
 
 ## Project Directory Structure:
-
+'''
 Final_Project_CMSE_802/
 │-- src/                   # Source code for the data processing and for the prediction models
 │   │-- data_processing.py  # Data loading and preprocessing functions
@@ -49,3 +49,4 @@ Final_Project_CMSE_802/
 
 - **Each model will be in a separate Python script in the src/ directory, and Jupyter notebooks in notebooks/ will be used for visualizing and analyzing the results. 
 - **The models will be saved in the models/ directory, and the results for each model will be stored in results/.
+'''
