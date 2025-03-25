@@ -50,42 +50,31 @@ Final_Project_CMSE_802/
 ```
 ## Project Development So Far:
 
-### My dataset consists of four features:
+```
+Dataset Features and Target:
+├── Solute_Concentration       # Wt% of solute atoms
+├── Slip_plane                 # Specific slip plane (110, 112, 123)
+├── Temperature                # Temperature in Kelvin
+├── Applied_stress             # External applied stress in MPa
+└── Target: Velocity           # Dislocation velocity
 
-- __Solute_Concentration__: Wt% of solute atoms.
-
-- __Slip_plane:__ The specific slip plane where motion occurs.
-
-- __Temperature:__ The temperature in Kelvin.
-
-- __Applied_stress:__ The external applied stress in MPa.
-
-My target variable is Velocity which represents the dislocation velocity.
-
-### Implementation Plan
-
-- __Preprocessing:__
-
-1. Load raw data from data/raw/raw_data.xlsx
-
-2. Remove missing values
-
-3. Filter relevant slip planes (110, 112, 123)
-
-4. Save processed data as cleaned_data.csv
-
-- __Model Training:__
-
-1. Split data into training (75%) and testing (25%) set.
-
-2. I will be training three models: Least Squares, Random Forest, and XGBoost
-
-3. Save trained models in models/
-
-- __Model Evaluation:__
-
-1. Compute RMSE for each model
-
-2. Generate the same plots for each model to compare
-
-3. Save results in results/
+Implementation Plan:
+├── Preprocessing:
+│   ├── Load data from: data/raw/raw_data.xlsx
+│   ├── Remove missing values
+│   ├── Filter slip planes: 110, 112, 123
+│   └── Save cleaned data to: data/processed/cleaned_data.csv
+│
+├── Model Training:
+│   ├── Split data: 75% train / 25% test
+│   ├── Train models:
+│   │   ├── Least Squares
+│   │   ├── Random Forest
+│   │   └── XGBoost
+│   └── Save models to: models/
+│
+└── Model Evaluation:
+    ├── Compute RMSE for each model
+    ├── Generate comparison plots
+    └── Save results to: results/
+```
