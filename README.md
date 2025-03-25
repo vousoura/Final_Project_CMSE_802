@@ -48,7 +48,7 @@ Final_Project_CMSE_802/
 ├── docs/                        # Project documentation
 │   └── README.md
 ```
-## Project Development So Far:
+## Project Implementation:
 
 ```
 My Dataset consists of 4 features:
@@ -77,4 +77,49 @@ My implementation Plan is:
     ├── Compute RMSE for each model
     ├── Generate comparison plots
     └── Save results to: results/
+
+├── Core Functionality:
+│   └── Each script (in src/):
+│       ├── Least_Squares_Model.py
+│       ├── Random_Forest_Model.py
+│       └── XGBoost_Model.py
+│
+│       Actions performed:
+│       ├── Load cleaned dataset
+│       ├── Split into train/test sets
+│       ├── Train the model
+│       ├── Save trained model to models/
+│       └── Output RMSE to results/
+│
+├── Visualization and Analysis (in notebooks/):
+│   ├── Scatter Plot: Actual vs Predicted Velocity (with regression line)
+│   ├── Regression Plot: Applied Stress vs Predicted Velocity
+│   ├── Regression Plot: Solute Concentration vs Predicted Velocity
+│   ├── Regression Plot: Slip Plane vs Predicted Velocity
+│   ├── Regression Plot: Temperature vs Predicted Velocity
+│   ├── Histogram: Predicted Velocity
+│   └── Box Plot: Predicted Velocity grouped by Solute Concentration
 ```
+## Project Progress Assessment:
+
+```
+Project Progress Assessment:
+
+├── I have successfully run the XGBoost regression model.
+│   └── The model was trained on a dataset containing:
+│       ├── Solute concentration
+│       ├── Slip plane
+│       ├── Temperature
+│       └── Applied stress
+│       as input features, with velocity as the target variable.
+
+├── The dataset was preprocessed using data_processing.py
+│   └── to clean and filter the necessary data.
+
+├── The XGBoost model was trained and evaluated,
+│   └── and I found the RMSE value to be: 0.99598.
+
+└── I made the forementioned plots using Seaborn to analyze the model.
+```
+
+
