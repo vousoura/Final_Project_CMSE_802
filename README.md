@@ -12,4 +12,38 @@ This project aims to use machine learning to predict the dislocation velocity in
 - **Data Visualization:** Plot results comparing dislocation velocity against parameters like stress, temperature, and W content.
 
 ## Project Directory Structure:
-<pre> ``` Final_Project_CMSE_802/ ├── src/ # Source code for data processing and models │ ├── data_processing.py # Data loading and preprocessing functions │ ├── Least_Squares_Model.py # Least Squares Regression model │ ├── Random_Forest_Model.py # Random Forest Regression model │ └── XGBoost_Model.py # XGBoost Regression model │ ├── notebooks/ # Jupyter notebooks for analysis and visualization │ ├── Least_Squares_Analysis.ipynb # Plots for Least Squares │ ├── Random_Forest_Analysis.ipynb # Plots for Random Forest │ ├── XGBoost_Analysis.ipynb # Plots for XGBoost │ └── Model_Comparison.ipynb # RMSE comparison across models │ ├── data/ # Dataset storage │ ├── raw/ # Raw data files │ └── processed/ # Processed datasets │ ├── models/ # Saved trained models │ ├── least_squares_model.pkl │ ├── random_forest_model.pkl │ └── xgboost_model.pkl │ ├── tests/ # Unit tests │ ├── test_data.py │ └── test_model.py │ ├── results/ # Output results and evaluation metrics │ ├── least_squares_rmse.txt │ ├── random_forest_rmse.txt │ └── xgboost_rmse.txt │ ├── docs/ # Project documentation │ └── README.md ``` </pre>
+
+```text
+Final_Project_CMSE_802/
+├── src/                         # Source code for data processing and models
+│   ├── data_processing.py       # Data loading and preprocessing functions
+│   ├── Least_Squares_Model.py   # Least Squares Regression model
+│   ├── Random_Forest_Model.py   # Random Forest Regression model
+│   └── XGBoost_Model.py         # XGBoost Regression model
+│
+├── notebooks/                   # Jupyter notebooks for analysis and visualization
+│   ├── Least_Squares_Analysis.ipynb   # Plots for Least Squares
+│   ├── Random_Forest_Analysis.ipynb   # Plots for Random Forest
+│   ├── XGBoost_Analysis.ipynb         # Plots for XGBoost
+│   └── Model_Comparison.ipynb         # RMSE comparison across models
+│
+├── data/                        # Dataset storage
+│   ├── raw/                     # Raw data files
+│   └── processed/               # Processed datasets
+│
+├── models/                      # Saved trained models
+│   ├── least_squares_model.pkl
+│   ├── random_forest_model.pkl
+│   └── xgboost_model.pkl
+│
+├── tests/                       # Unit tests
+│   ├── test_data.py
+│   └── test_model.py
+│
+├── results/                     # Output results and evaluation metrics
+│   ├── least_squares_rmse.txt
+│   ├── random_forest_rmse.txt
+│   └── xgboost_rmse.txt
+│
+├── docs/                        # Project documentation
+│   └── README.md
