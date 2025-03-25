@@ -51,26 +51,26 @@ Final_Project_CMSE_802/
 ## Project Development So Far:
 
 ```
-Dataset Features and Target:
+My Dataset consists of 4 features:
 ├── Solute_Concentration       # Wt% of solute atoms
 ├── Slip_plane                 # Specific slip plane (110, 112, 123)
 ├── Temperature                # Temperature in Kelvin
 ├── Applied_stress             # External applied stress in MPa
 └── Target: Velocity           # Dislocation velocity
 
-Implementation Plan:
+My implementation Plan is:
 ├── Preprocessing:
 │   ├── Load data from: data/raw/raw_data.xlsx
 │   ├── Remove missing values
 │   ├── Filter slip planes: 110, 112, 123
 │   └── Save cleaned data to: data/processed/cleaned_data.csv
 │
-├── Model Training:
+├── My model Training is:
 │   ├── Split data: 75% train / 25% test
 │   ├── Train models:
 │   │   ├── Least Squares
 │   │   ├── Random Forest
-│   │   └── XGBoost
+│   │   └── XGBoost            #I have only done this so far
 │   └── Save models to: models/
 │
 └── Model Evaluation:
