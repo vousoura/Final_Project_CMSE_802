@@ -120,6 +120,29 @@ Project Progress Assessment:
 │   └── and I found the RMSE value to be: 0.99598.
 
 └── I made the forementioned plots using Seaborn to analyze the model.
+XGBoost Model – Visualization Summary:
+
+├── Actual vs Predicted Velocity
+│   └── We can see a strong linear trend which indicates accurate model predictions.
+
+├── Predicted Velocity vs Applied Stress
+│   └── Slight positive correlation: higher stress increases the predicted velocity which makes sense since the applied stress governs the plastic deformation.
+
+├── Predicted Velocity vs Solute Concentration
+│   └── Slight negative trend: we can see that with the increase of solute concentration the velocity is slightly reduced which should show more reduce since solutes act as barrier to the dislocation motion.
+
+├── Predicted Velocity vs Slip Plane
+│   └── Small variation between slip planes; 110 and 112 show higher predicted velocity. This is interesting since studies have shown that there are notable changes between active slip planes in BCC structures.
+
+├── Predicted Velocity vs Temperature
+│   └── Small negative trend: velocity decreases slightly as temperature increases which makes sence since phonon scattering is occuring but also the thermally activated kink-pair mechanism is present which justifies the small velocity decrease.
+
+├── Velocity Distribution
+│   └── Histogram shows sthe velocity distribution to be centered around 13–15 m/s.
+
+└── Box Plot: Velocity by Solute Concentration
+    └── We can see that the predicted velocity decreases slightly as solute concentration increases which again is justified.
+
 ```
 
 
