@@ -107,3 +107,9 @@ Overall, the XGBoost and Random Forest models both demonstrated strong predictiv
 better actual vs. predicted velocity alignment, indicating strong model generalization, while Random Forest showed slightly more spread and variability. In contrast, the Least Squares model was able to capture basic linear relationships, such as the decrease in velocity with higher solute concentration and temperature. However, it struggled to model non-linear interactions, especially between velocity and slip plane. The predictions were more constrained, and the velocity distribution was narrower compared to the tree-based models. 
 
 In conclusion, XGBoost provided the most robust and physically interpretable predictions across all key features, making it the most suitable model for predicting dislocation velocity in this dataset. Random Forest was a close second, while Least Squares, although useful for understanding linear trends, was limited in flexibility and predictive accuracy.
+
+## References
+
+- Kedharnath, A., Kapoor, R., and Sarkar, A. (2025). "Understanding dislocation velocity in TaW using explainable machine learning", 7, 327-336. :https://doi.org/10.1007/s42864-024-00306-9
+
+- GitHub Repository (data and supplemental code):https://github.com/kedhar1992/dislocation-mobility/}
