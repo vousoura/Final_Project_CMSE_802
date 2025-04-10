@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project aims to use machine learning to predict the dislocation velocity in Tantalum-Tungsten (TaW) alloy, focusing on how solute atoms affect dislocation motion. Instead of using molecular dynamics simulations, I will use existing datasets and machine learning algorithms like XGBoost, Least Squares and Random Forest models to estimate the dislocation velocity based on parameters like solute concentration, temperature, slip plane and applied stress.
+This project aims to use machine learning to predict the dislocation velocity in Tantalum-Tungsten (TaW) alloy, focusing on how solute atoms affect dislocation motion. Instead of using molecular dynamics simulations, I will use existing datasets and machine learning models like XGBoost, Least Squares and Random Forest models to predict the dislocation velocity based on parameters like solute concentration, temperature, slip plane and applied stress.
 
 ## Project Objectives
 
