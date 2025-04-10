@@ -71,6 +71,13 @@ The dataset consists of the following features:
 - Computed RMSE for each model
 - Created consistent plots across models
 - Saved RMSE results to `results/`
+- To ensure reliability and reproducibility, unit tests were implemented for each model and placed in the `tests/` directory. These include:
+- `test_XgBoost_model.py`: Validates model training and output for XGBoost.
+- `test_least_squares_model.py`: Confirms Least Squares model predictions and structure.
+- `test_random_forest_model.py`: Checks prediction range and correctness for Random Forest.
+
+Each test script verifies core functionality and helps maintain model robustness throughout development.
+
 
 ### Core Functionality
 Each script in `src/`:
